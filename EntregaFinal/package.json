@@ -1,0 +1,25 @@
+{
+  "name": "primeraentregaproyectofinal",
+  "version": "1.0.0",
+  "description": "Package.json de primer entrega.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon src/app.js"
+  },
+  "author": "gonzalo ferraro",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "mongoose": "^8.4.1",
+    "mongoose-paginate-v2": "^1.8.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "i": "^0.3.7",
+    "nodemon": "^3.1.0"
+  }
+}
